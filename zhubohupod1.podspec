@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zhubohupod1'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of zhubohupod1.'
+  s.version          = '0.6.0'
+  s.summary          = 'zhubohu test pod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+zhubohu long desc.
                        DESC
 
   s.homepage         = 'https://github.com/zhubohu/zhubohupod1'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhubohu' => 'zhubohu@100tal.com' }
-  s.source           = { :git => 'https://github.com/zhubohu/zhubohupod1.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhubohu/zhubohupod1.git', :tag => '0.1.0'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'zhubohupod1/Classes/**/*'
-  
+  s.module_name = 'zhubohu'
   # s.resource_bundles = {
   #   'zhubohupod1' => ['zhubohupod1/Assets/*.png']
   # }
